@@ -1,0 +1,26 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  cursor: pointer;
+  width: 25px;
+  padding: 10px;
+  transition: color ease-out 500ms;
+}
+
+.sidebarOption > h2 {
+  padding-left: 15px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.sidebarOption:hover {
+  background: linear-gradient(to right, rgb(28, 167, 28), rgb(24, 185, 214));
+  border-radius: 30px;
+  transform: scale(1.2);
+  color: var(--barker-color);
+}
+
+.sidebarOption--active {
+  color: var(--barker-color);
+}
